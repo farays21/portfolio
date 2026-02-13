@@ -431,6 +431,8 @@ body {
 
   .pendidikan-item img {
     height: 200px;
+    width: 60%;          /* semua gambar ngikuti lebar item */
+    margin: auto;       /* gambar di tengah */
   }
 
   /* CONTACT */
