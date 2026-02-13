@@ -354,6 +354,17 @@ body {
   color: #fff;
 }
 
+@media (max-width: 1024px) {
+  .hero-welcome {
+  display: flex;
+  align-items: center;      /* sejajar secara vertikal */
+  justify-content: space-between; /* teks kiri, gambar kanan */
+  gap: 40px;                /* jarak antara teks & gambar */
+  padding: 30px;
+  padding-top: 100px;
+  }
+}
+
 /* =========================
    MOBILE RESPONSIVE
    ========================= */
